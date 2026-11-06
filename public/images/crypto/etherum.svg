@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="922px" height="660px" viewBox="0 0 922 660" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L357.546 0L357.546 625.36L0 625.36L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Group" transform="translate(16 16)">
+    <g id="etherum" transform="translate(267.3008 1.239502)">
+      <path d="M0 0L357.546 0L357.546 625.36L0 625.36L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+      <g clip-path="url(#mask_1)">
+        <path d="M0 285.168L3.00283 287.958L140.48 212.32L3.00283 0L0 9.5L0 285.168Z" transform="translate(175.72867 104.226715)" id="Shape" fill="#343434" fill-rule="evenodd" stroke="none" />
+        <path d="M137.477 287.959L137.477 0L0 212.32L137.477 287.959Z" transform="translate(41.25528 104.226715)" id="Shape" fill="#8C8C8C" fill-rule="evenodd" stroke="none" />
+        <path d="M0 175.719L1.69211 180.319L139.252 0L1.6932 75.6L0.00108197 77.52L0 175.719Z" transform="translate(177.0394 340.81375)" id="Shape" fill="#3C3C3B" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L137.477 180.32L137.477 75.6L0 0Z" transform="translate(41.25528 340.8118)" id="Shape" fill="#8C8C8C" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L0 133.799L137.475 58.162L0 0Z" transform="translate(178.73149 258.38577)" id="Shape" fill="#141414" fill-rule="evenodd" stroke="none" />
+        <path d="M137.475 0L0 58.161L137.475 133.798L137.475 0Z" transform="translate(41.25528 258.38577)" id="Shape" fill="#393939" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+    <path d="M0 0L887.851 1" transform="translate(1.0743408 0)" id="Line" fill="none" fill-rule="evenodd" stroke="#808080" stroke-width="32" stroke-linecap="square" />
+    <path d="M0 1.6001L887.851 0" transform="translate(1.0743408 625.4)" id="Line-Copy" fill="none" fill-rule="evenodd" stroke="#808080" stroke-width="32" stroke-linecap="square" />
+    <path d="M1.07437 0L1.07437 619.5" transform="translate(887.85126 5.899994)" id="Line-Copy-2" fill="none" fill-rule="evenodd" stroke="#808080" stroke-width="32" stroke-linecap="square" />
+    <path d="M1.07436 0L1.07436 618.3" transform="translate(0 7.899994)" id="Line-Copy-3" fill="none" fill-rule="evenodd" stroke="#808080" stroke-width="32" stroke-linecap="square" />
+  </g>
+</svg>

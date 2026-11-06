@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": "16.20.0"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^0.7.5",
+        "sass": "^1.56.1",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^4.2.2",
+        "jquery": "^3.7.0",
+        "moment": "^2.29.4",
+        "pico-emitter": "^1.2.1",
+        "quill": "^1.3.7",
+        "vue": "^3.2.36",
+        "vue-cal": "^4.8.1",
+        "vue-loader": "^17.0.1"
+    }
+}

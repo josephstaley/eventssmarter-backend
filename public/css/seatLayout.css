@@ -1,0 +1,170 @@
+.seat-selection {
+    margin: 10px auto;
+    width: 950px;
+}
+.seat-selection * {
+    padding: 0;
+    margin: 0;
+}
+.seat-area-row {
+    line-height: 0.7;
+}
+.seat-selection .seat-area {
+    text-align: center;
+}
+.seat-selection .seat-area .seat-area-desc {
+    line-height: 35px;
+}
+.seat-selection .seat-row-seat {
+    display: inline-block;
+    border: 1px solid transparent;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    margin: 1px;
+    vertical-align: -webkit-baseline-middle;
+    border-radius: 2px;
+}
+
+.seat-selection .seat-row-seat span {
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: #b9b9b9;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+    font-size: 0.6em;
+    padding-top: 1px;
+    margin-left: 0.4px;
+    line-height: 1;
+}
+
+.seat-selection .seat-row-seat.seat-yes {
+    border-color: #8a8a8a;
+    background-color: #fafafa;
+}
+.seat-selection .seat-row-seat.can-select {
+    background-color: #fff;
+    cursor: pointer;
+}
+.seat-selection .seat-row-seat.can-select span {
+    background-color: #fff;
+}
+.seat-selection .seat-row-seat.added.can-select span {
+    background-color: #41db41;
+    color: #fff;
+}
+.seat-selection .seat-row-seat.current-selected.can-select span {
+    background-color: #41db41;
+    color: #fff;
+}
+.seat-selection .seat-row-seat.current-selected.can-select:hover span {
+    background-color: #41db41;
+}
+.seat-selection .seat-row-seat.can-select:hover span {
+    background-color: #dcdcdc;
+}
+.seat-selection .row-indicator {
+    margin-right: 10px;
+    color: green;
+}
+.seat-selection .movie-screen {
+    width: 400px;
+    margin: 40px auto 10px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #626573;
+    outline: 1px solid;
+    font-weight: bold;
+    padding: 10px;
+}
+.seat-selection .seat-proccess-panel {
+    padding: 10px;
+    border-top: 3px solid #009486;
+    text-align: right;
+}
+.seat-selection .layout-action-btn {
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: burlywood;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0px 2px 5px 0px #2b2b2b;
+    border-radius: 2px;
+}
+.seat-selection .layout-action-btn[disabled] {
+    box-shadow: none;
+    background-color: #b1b1b1 !important;
+    border-color: #828282 !important;
+    cursor: not-allowed;
+}
+.seat-selection .layout-action-btn.layout-btn-done {
+    border: 1px solid #7ca07d;
+    background-color: #228b22;
+}
+.tooltip-text .tooltiptext{
+    visibility: hidden;
+    width: 140px !important;
+    background-color: #0d0d0dc9 !important;
+    color: #fff !important;
+    text-align: center;
+    border-radius: 6px !important;
+    margin-left: -64px !important;
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px !important;
+    font-size: 11pt !important;
+    height: auto !important;
+    padding-top: 6px !important;
+    line-height: 1.3 !important;
+}
+
+/* arena  */
+
+.stadium-svg{
+    width: 100%;
+    height: 100%;
+}
+.stadium-svg>path:hover{
+    fill: #ddd;
+    cursor: pointer;
+}
+.stadium-svg>g:hover{
+    cursor: pointer;
+}
+.stadium-svg>g>path:hover{
+    cursor: pointer;
+}
+
+#sectionMap{
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+}
+
+#sectionMap span{
+    border: 1px solid rgb(136 136 136);
+    width: 100%;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+#sectionMap span.selected{
+    background-color: #ACCEF7;
+}
+
+#sectionMap span.disabled{
+    background-color: #aaa;
+}
+
+.stadium-svg>path.available{
+    stroke: blue;
+}
+.stadium-svg>path.available:hover{
+    fill: #ACCEF7;
+}
+.stadium-svg>path.mySeats{
+    fill: #ACCEF7;
+    stroke: blue;
+}

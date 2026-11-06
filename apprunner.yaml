@@ -1,0 +1,19 @@
+version: 1.0
+runtime: php81
+build:
+  commands:
+    pre-build:
+      - scripts/pre-build.sh
+    build:
+      - scripts/build.sh
+    post-build:
+      - scripts/post-build.sh
+run:
+  runtime-version: 8.1.17
+  command: scripts/entrypoint.sh
+  network:
+    port: 80
+    env: APP_PORT
+  env:
+    - name: APP_ENV
+      value: "prod"

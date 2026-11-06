@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+# Run laravel artisan commands
+usermod -a -G www-data root
+php /var/www/html/artisan config:clear
+php /var/www/html/artisan cache:clear
+php /var/www/html/artisan view:clear
+php /var/www/html/artisan route:clear
+#php /var/www/html/artisan telescope:prune --hours=168
+
+# Start app services
+service nginx restart
+php-fpm

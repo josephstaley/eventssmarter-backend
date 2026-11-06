@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="358px" height="626px" viewBox="0 0 358 626" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L357.546 0L357.546 625.36L0 625.36L0 0L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="etherum">
+    <path d="M0 0L357.546 0L357.546 625.36L0 625.36L0 0L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g id="Mask-group">
+      <path d="M0 0L357.546 0L357.546 625.36L0 625.36L0 0L0 0Z" id="path_1" fill="none" fill-rule="evenodd" stroke="none" />
+      <g clip-path="url(#mask_1)">
+        <g id="Group" transform="translate(41.25528 104.226715)">
+          <path d="M0 285.168L3.00284 287.958L140.48 212.32L3.00284 0L0 9.5L0 285.168L0 285.168Z" transform="translate(134.47339 0)" id="Shape" fill="#343434" fill-rule="evenodd" stroke="none" />
+          <path d="M137.477 287.959L137.477 0L0 212.32L137.477 287.959L137.477 287.959Z" id="Shape#1" fill="#8C8C8C" fill-rule="evenodd" stroke="none" />
+          <path d="M0 175.719L1.69211 180.319L139.252 0L1.69321 75.6L0.00106812 77.52L0 175.719L0 175.719Z" transform="translate(135.78412 236.58704)" id="Shape#2" fill="#3C3C3B" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L137.477 180.32L137.477 75.6L0 0L0 0Z" transform="translate(0 236.58508)" id="Shape#3" fill="#8C8C8C" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L0 133.799L137.475 58.162L0 0L0 0Z" transform="translate(137.4762 154.15906)" id="Shape#4" fill="#141414" fill-rule="evenodd" stroke="none" />
+          <path d="M137.475 0L0 58.161L137.475 133.798L137.475 0L137.475 0Z" transform="translate(0 154.15906)" id="Shape#5" fill="#393939" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
